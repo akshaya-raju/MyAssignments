@@ -52,7 +52,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			WebElement elementFirstName=driver.findElement(By.id("createLeadForm_firstName"));
 			elementFirstName.sendKeys("Fname");
 			
-			WebElement elementLastName=driver.findElement(By.id("createLeadForm_lastName"));
+			WebElement elementLastName=driver.findElement(By.id("createLeadForm_firstName"));
 			elementLastName.sendKeys("Lname");
 			
 			WebElement sourceDD=driver.findElement(By.id("createLeadForm_dataSourceId"));
