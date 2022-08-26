@@ -16,7 +16,7 @@ public class Students {
 			Students sd=new Students();
 			Students.getStudentInfo(98);
 			sd.getStudentInfo(98987, " Akshu");
-			sd.getStudentInfo("ak@gmail.com ", 12345678);
+			sd.getStudentInfo("ak@gmail.com ", 85645);
 		}
 
 	}
